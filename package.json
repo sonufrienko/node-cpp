@@ -1,0 +1,22 @@
+{
+  "name": "node-cpp",
+  "version": "1.0.0",
+  "description": "Node.js with C++ addons",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonufrienko/node-cpp.git"
+  },
+  "author": "Sergey Onufrienko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonufrienko/node-cpp/issues"
+  },
+  "homepage": "https://github.com/sonufrienko/node-cpp#readme",
+  "dependencies": {
+    "node-gyp": "^5.0.0"
+  }
+}
